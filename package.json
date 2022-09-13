@@ -9,7 +9,23 @@
     "dev": "nodemon server.js"
   },
   "dependencies": {
+    "dotenv": "^16.0.2",
     "env": "^0.0.2",
     "serve": "^14.0.1"
-  }
+  },
+  "name": "portfolio-backend",
+  "description": "The Goal of Today is to give you a day to build a Full-Stack Portfolio website using Express and React. Follow the Lab to build and deploy your backend Express app and your Frontend React app then customize both to your liking!",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrigg/profile-fullstack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hrigg/profile-fullstack/issues"
+  },
+  "homepage": "https://github.com/hrigg/profile-fullstack#readme"
 }
