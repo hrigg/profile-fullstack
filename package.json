@@ -9,6 +9,7 @@
     "dev": "nodemon server.js"
   },
   "dependencies": {
-    "env": "^0.0.2"
+    "env": "^0.0.2",
+    "serve": "^14.0.1"
   }
 }

@@ -33,4 +33,7 @@ app.get("/", (req, res) => {
 const PORT = process.env.PORT || 4000;
 
 // turn on the server listener
-app.listen(PORT, () => console.log(`Listening on port ${PORT}`));
+//app.listen(PORT, () => console.log(`Listening on port ${PORT}`));
+app.listen(process.env.PORT || 4000, function(){
+  console.log("Express server listening on port 4000");
+});
